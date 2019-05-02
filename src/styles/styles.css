@@ -1,0 +1,55 @@
+*{
+    margin:0;
+}
+
+body{
+    max-width:900px;
+    margin: auto;
+}
+
+h1, h3{
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    font-size: 3em;
+    color: rgb(55,55,55);
+    margin-top: 30px;
+}
+h3{
+    font-size:1.5em;
+    color:rgb(55,55,55)
+}
+p{
+    font-family: 'PT Serif', serif;
+    margin-bottom: 15px;
+    
+}
+
+a{
+    /* text-decoration: none; */
+    color:inherit;
+    
+}
+
+
+.app-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.chart{
+    margin: auto;
+}
+
+.description{
+    margin: 20px;
+    border: 2px solid rgb(55,55,55);
+    border-radius: 4px;
+    padding: 30px;
+    background-color: rgb(245,245,242);
+    
+}
